@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyBrary</string>
+    <string name="title_gallery">갤러리</string>
+    <string name="title_review">독서리뷰 작성</string>
+    <string name="title_checklist">체크리스트</string>
+    <string name="gallery_header_title">모든 유저의 독서리뷰</string>
+    <string name="gallery_date">2020년 4월 11일</string>
+    <string name="all_list">나의 전체 독서리뷰</string>
+    <string name="new_review">새로운 독서록</string>
+    <string name="author">작성자 : </string>
+    <string name="checklist_header_title">독서 체크리스트</string>
+    <string name="checklist_check_disable">체크 해제</string>
+    <string name="before_reading">독서 전</string>
+    <string name="while_reading">독서 중</string>
+    <string name="after_reading">독서 후</string>
+    <string name="review_header_title">전체 독서리뷰</string>
+</resources>

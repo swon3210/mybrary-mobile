@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    android:paddingHorizontal="19dp"
+    tools:context=".ReviewItemActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="31dp">
+            <EditText
+                android:id="@+id/reviewTitleEdit"
+                android:text="민주주의여 영원하라"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textSize="24dp"
+                android:backgroundTint="@android:color/transparent"
+                android:textColor="@color/colorLightText"
+                android:layout_marginBottom="12dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/reviewer"
+                android:text="@string/author"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="@color/colorLightText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <GridLayout
+            android:rowCount="4"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:paddingHorizontal="18dp"
+            android:paddingVertical="21dp">
+
+            <EditText
+                android:id="@+id/reviewTextEdit"
+                android:layout_row="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:backgroundTint="@android:color/transparent"
+                android:text="외국인은 국제법과 조약이 정하는 바에 의하여 그 지위가 보장된다. 이 헌법시행 당시에 이 헌법에 의하여 새로 설치될 기관의 권한에 속하는 직무를 행하고 있는 기관은 이 헌법에 의하여 새로운 기관이 설치될 때까지 존속하며 그 직무를 행한다. 모든 국민은 건강하고 쾌적한 환경에서 생활할 권리를 가지며, 국가와 국민은 환경보전을 위하여 노력하여야 한다. \n\n 비상계엄하의 군사재판은 군인·군무원의 범죄나 군사에 관한 간첩죄의 경우와 초병·초소·유독음식물공급·포로에 관한 죄중 법률이 정한 경우에 한하여 단심으로 할 수 있다. 다만, 사형을 선고한 경우에는 그러하지 아니하다. 군사재판을 관할하기 위하여 특별법원으로서 군사법원을 둘 수 있다. 국가는 국민 모두의 생산 및 생활의 기반이 되는 국토의 효율적이고 균형있는 이용·개발과 보전을 위하여 법률이 정하는 바에 의하여 그에 관한 필요한 제한과 의무를 과할 수 있다. \n\n 모든 국민은 근로의 의무를 진다. 국가는 근로의 의무의 내용과 조건을 민주주의원칙에 따라 법률로 정한다. 대통령은 제1항과 제2항의 처분 또는 명령을 한 때에는 지체없이 국회에 보고하여 그 승인을 얻어야 한다. 감사위원은 원장의 제청으로 대통령이 임명하고, 그 임기는 4년으로 하며, 1차에 한하여 중임할 수 있다."/>
+            <GridLayout
+                android:id="@+id/editArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_area_shape"
+                android:minWidth="180dp"
+                android:gravity="fill_horizontal"
+                android:columnCount="10"
+                android:orientation="horizontal"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="12dp"
+                android:layout_row="3"
+                >
+                <ImageButton
+                    android:id="@+id/editCompleteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/assignment_turned_in"
+                    android:layout_column="9"
+                    android:background="#00000000" />
+            </GridLayout>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

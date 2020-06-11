@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusBarColor">#AABF95</color>
+
+    <color name="colorPrimary">#518C16</color>
+    <color name="colorPrimaryDark">#518C16</color>
+    <color name="colorSecondary">#AABF95</color>
+    <color name="colorTeriary">#447343</color>
+    <color name="colorAccent">#42594A</color>
+
+    <color name="colorItem">#9DAF8C</color>
+
+    <color name="colorLight">#ffffff</color>
+    <color name="colorDark">#000000</color>
+
+    <color name="colorDarkText">#707070</color>
+    <color name="colorGreyText">#000000</color>
+    <color name="colorLightText">#ffffff</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="340dp"
+    android:background="@drawable/shape"
+    android:padding="17dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/reviewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorDarkText"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/reviewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        />
+    <View android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_area_shape"
+        android:minWidth="220dp"
+        android:gravity="fill_horizontal"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:paddingVertical="7dp"
+        android:paddingHorizontal="12dp"
+        >
+        <ImageButton
+            android:id="@+id/viewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/visibility"
+            android:layout_column="3"
+            android:background="#00000000" />
+    </GridLayout>
+</LinearLayout>
